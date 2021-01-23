@@ -6,4 +6,20 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple_data_management", "simple_data_management\simple_data_management.csproj", "{D80458E6-16CE-4309-827E-2B47125F03F5}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = 
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D80458E6-16CE-4309-827E-2B47125F03F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80458E6-16CE-4309-827E-2B47125F03F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80458E6-16CE-4309-827E-2B47125F03F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80458E6-16CE-4309-827E-2B47125F03F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E54117C-E41A-4FA1-8EBE-A27B6F66A777}
+	EndGlobalSection
+EndGlobal
