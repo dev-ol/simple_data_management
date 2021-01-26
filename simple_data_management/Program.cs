@@ -12,14 +12,13 @@ namespace simple_data_management
         {
             //list of string to manage the item added by users
             List<string> items = new List<string>();
-            bool cont = true;
+            bool cont = true; 
             Console.WriteLine("Welcome to OL Data Management System.\n");
             string choice = "m";
 
             bool listEmpty = true;
             do
             {
-
                 if (cont)
                 {
                     DisplayMenu(listEmpty);
@@ -98,7 +97,8 @@ namespace simple_data_management
             string item = Console.ReadLine();
 
             itemCache.Add(item);
-            
+
+            Console.WriteLine("[Item Created]\n");
             return false;
         }
 
@@ -146,7 +146,7 @@ namespace simple_data_management
                
             }
 
-            Console.WriteLine($"Page {currentPage+1} 0f {totalPages} ");
+            Console.WriteLine($"Page {currentPage+1} 0f {totalPages} \n");
         }
 
         /*
@@ -166,7 +166,7 @@ namespace simple_data_management
              */
             if (!Int32.TryParse(Console.ReadLine(), out index) || index > itemCache.Count())
             {
-                Console.WriteLine("[>>>>Incorrect Item Number<<<<]");
+                Console.WriteLine("[>>>>Incorrect Item Number<<<<]\n");
 
                 return;
             }
@@ -202,7 +202,7 @@ namespace simple_data_management
             */
             if (!Int32.TryParse(Console.ReadLine(), out index) || index > itemCache.Count())
             {
-                Console.WriteLine("[>>>>Incorrect Item Number<<<<]");
+                Console.WriteLine("[>>>>Incorrect Item Number<<<<]\n");
             }
             else
             {
